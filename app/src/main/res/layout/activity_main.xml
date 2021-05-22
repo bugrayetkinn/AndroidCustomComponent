@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.MainActivity">
+
+        <com.yetkin.androidcustomcomponent.customview.CustomMenuItem
+            android:id="@+id/itemCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menuIcon="@drawable/ic_baseline_call_24"
+            app:txtDescription="sadece listenizdeki kişiler için kullanabilirsiniz."
+            app:txtTitle="Arama Yap" />
+
+        <com.yetkin.androidcustomcomponent.customview.CustomMenuItem
+            android:id="@+id/itemMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menuIcon="@drawable/ic_baseline_message_24"
+            app:txtDescription="argo kelime kullanmayınız."
+            app:txtTitle="Mesaj Gönder" />
+
+        <com.yetkin.androidcustomcomponent.customview.CustomMenuItem
+            android:id="@+id/itemVideoCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menuIcon="@drawable/ic_baseline_videocam_24"
+            app:txtDescription="ücretsiz olarak 3 dakika kullanabilirsiniz."
+            app:txtTitle="Görüntülü Arama" />
+
+    </LinearLayout>
+</layout>

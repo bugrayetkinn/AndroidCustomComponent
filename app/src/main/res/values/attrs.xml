@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomMenuItem">
+        <attr name="txtTitle" format="string" />
+        <attr name="txtDescription" format="string" />
+        <attr name="menuIcon" format="reference" />
+    </declare-styleable>
+</resources>
